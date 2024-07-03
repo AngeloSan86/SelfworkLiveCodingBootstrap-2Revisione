@@ -1,0 +1,132 @@
+/*text color and fonts*/
+*{
+    color: var(--white-col);
+}
+:root{
+    --white-col:rgb(244, 244, 244);
+    --bg-col-1: rgb(27,21,64);
+    --bg-col-2: rgb(20,9,37);
+    --bg-col-3: rgb(33,37,41);
+    --text-yellow:rgb(235,220,14);
+    --bottom-border: rgb(187, 38, 193);
+}
+
+/*header*/
+.bc-img-header{
+    background-image: url(./media/bg-1.jpg);
+}
+
+.custom-logo{
+    height: 50px;
+    width: auto;
+}
+
+.custom-title{
+    font-weight: bold;
+}
+
+.custom-data{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn{
+    border-radius: 50px; /*sono dovuto intervenire direttamente sulla classe btn di boottrap, in quanto ne con una nuova classe, ne con un !important sono  riuscito ad applicare le modifiche necessarie*/
+}
+
+/*MAIN*/
+.bgc-1{
+background-color: var(--bg-col-1);
+}
+
+.bgc-2{
+    background-color: var(--bg-col-2);
+    }
+
+/*Impara section*/
+.custom-icon{
+    max-width: 100%;
+    height: auto;
+  }
+
+.neonimg{
+    height: 500px;
+    width: 500px;
+}
+
+/*chi è aulab*/
+.chieaulab-color{
+    color: var(--text-yellow);
+
+}
+
+.img-chieaulab{
+    height: 300px;
+    width: 300px;
+}
+
+/*MARCO INSABATO*/
+.img-mi{
+    max-height: 500px;
+    max-width: auto;
+}
+
+.bg-image-3{
+    background-image: url(./media/bg-3.jpg);
+    max-width: 100%;
+}
+
+/*FOOTER*/
+.foot{
+    width: 100%;
+    background-color: var(--bg-col-3);
+    color: var(--white-col);
+
+}
+
+/*MODAL*/
+.mycustommodal{
+    color: var(--white-col);
+    background-color: var(--bg-col-1);
+    border: none;
+}
+
+.custom-button-iscrizione {
+    background-color: var(--text-yellow);
+    color: var(--bg-col-1);
+    width: 100vw;
+}
+
+.custom-button-iscrizione:hover{
+    background-color: rgba(255, 0, 0, 0);
+    color: var(--text-yellow);
+
+}
+
+.custom-input{
+    background-color: rgba(255, 0, 0, 0);
+    color: gray;
+    border: none;
+}
+
+.custom-div-input{
+    border-bottom-color: var(--bottom-border) !important;
+    
+}
+
+.leggi{
+    text-decoration: none;
+    color: var(--white-col);
+}
+
+.leggi:hover{
+    color: blue;
+}
+
+
+/*MEDIAQUERY*/
+@media (min-width: 768px) {
+    p {
+        font-size: 20px;
+    }
+  }
